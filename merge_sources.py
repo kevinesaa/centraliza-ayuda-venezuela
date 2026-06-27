@@ -7,15 +7,6 @@ DEFAULT_INPUT_PATH:str = "data_source_helper/new_sources.json"
 DEFALUT_PLAIN_DATA:str = "data_source_helper/plain_sources.json"
 DEFAULT_OUTPUT_PATH:str = "js/data_source_json.js"
 
-def build_js_file(jsonPath,outputName):
-    jsonFile = open(jsonPath, 'r',encoding='utf-8')
-    myJson = json.load(jsonFile)
-    jsonFile.close()
-    jsonStr = json.dumps(myJson,indent=4)
-    jsContent = f"const api = {jsonStr}"
-    jsFile = open(outputName,'w', encoding='utf-8')
-    jsFile.write(jsContent)
-    jsFile.close()
 
 def write_text_to_file(output_path:str,content:str):
     jsFile = open(output_path,'w', encoding='utf-8')
