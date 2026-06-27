@@ -20,9 +20,13 @@ def update_plain_source(output_path:str,json_object:str):
 
 
 def update_api_json_source(output_path:str,json_object:dict|list):
+    
+    json_comment = "//no actualizar este archivo directamente.\n" 
+    json_comment = f"{json_comment}//Añadir nuevas fuente en el arreglo data_source_helper/new_sources.json\n" 
+    json_comment = f"{json_comment}//luego ejecutar merge_sources.py\n"
     json_str = json.dumps(json_object,indent=4)
-    json_str = f"const SOURCES = {json_str}"
-    write_text_to_file(output_path,json_str)
+    file_content = f"{json_comment}const SOURCES = {json_str}"
+    write_text_to_file(output_path,file_content)
 
 def clean_input(output_path:str):
     write_text_to_file(output_path,"[]")
@@ -61,19 +65,21 @@ def normalize_single_url(url:str) -> str:
     parsed = parsed._replace(fragment="")
     # 2. Eliminar parámetros de consulta
     parsed = parsed._replace(query="")
-    # 3. Eliminar prefijo www. del host (case-insensitive)
+    # 3. Eliminar prefijo www. del host y convertir host a minúsculas
     netloc = parsed.netloc
     if netloc.lower().startswith("www."):
         netloc = netloc[4:]
+    netloc = netloc.lower()
     parsed = parsed._replace(netloc=netloc)
     # 4. Eliminar barra final del path
     path = parsed.path
     if path.endswith("/"):
         path = path.rstrip("/")
     parsed = parsed._replace(path=path)
-    # 5. Convertir a minúsculas
+    # 5. Convertir esquema a minúsculas (scheme y host son case-insensitive, path NO)
+    parsed = parsed._replace(scheme=parsed.scheme.lower())
     result = urlunparse(parsed)
-    return result.lower()
+    return result
 
 def normalize_urls(json_list:list) -> list:
     

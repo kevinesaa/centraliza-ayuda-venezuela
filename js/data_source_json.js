@@ -1,3 +1,6 @@
+//no actualizar este archivo directamente.
+//Añadir nuevas fuente en el arreglo data_source_helper/new_sources.json
+//luego ejecutar merge_sources.py
 const SOURCES = [
     {
         "id": 1,
@@ -110,7 +113,7 @@ const SOURCES = [
     {
         "id": 19,
         "nombre": "Int\u00e9rpretes voluntarios EIM-UCV",
-        "url": "https://docs.google.com/forms/d/e/1faipqlscxzwyrf6ljpfcjakdamdbeehh1pbmku7qeq5utsyopwquboq/viewform",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLScXzwYRf6lJPfcJaKdAMDbeehH1pbMkU7QEq5UTSYOpWQubOQ/viewform",
         "descripcion": "Estamos organizando un equipo de int\u00e9rpretes voluntarios para misiones internacionales de rescate"
     },
     {
