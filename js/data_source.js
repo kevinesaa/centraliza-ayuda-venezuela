@@ -176,9 +176,32 @@ class ApiManager {
                     nombre:"Hazlo Hoy - Venezuela Ayuda",
                     url:"https://terremoto.hazlohoy.org/",
                     descripcion:"Conectando personas, familias y ayuda durante la emergencia"
+                },
+                {
+                    id:23,
+                    nombre:"Alimenta la solidaridad",
+                    url:"https://donate.alimentalasolidaridad.org/campaign/815565/donate",
+                    descripcion:"Activamos nuestra red humanitaria para acompañar a las comunidades afectadas por el terremoto y llevar ayuda donde más se necesita"
+                },
+                {
+                    id:24,
+                    nombre:"Campaña de Go Fund Me",
+                    url:"https://www.gofundme.com/f/emergency-relief-for-venezuela-earthquake-victims",
+                    descripcion:"Emergency Relief for Venezuela Earthquake Victims"
+                },
+                {
+                    id:24,
+                    nombre:"Dona - Yummy Rides",
+                    url:"HTTPS://DONA.YUMMYRIDES.COM/",
+                    descripcion:"Campaña de donación por Yummy Rides"
+                },
+                {
+                    id:24,
+                    nombre:"Héroes - Yummy Rides",
+                    url:"https://heroes.yummyrides.com/",
+                    descripcion:"brindando traslados a Personal de primera respuesta gratis desde y hacia donde sea necesario"
                 }
-                
-
+               
             ]
                
         };
