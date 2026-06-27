@@ -1,21 +1,29 @@
 function main() {
-    const apiManager = new ApiManager({ baseUrl: "http://localhost:3000" });
-    const viewManager = new View(document);
 
-    window.addEventListener('load', function () {
-        apiManager.getSites({})
-            .then(function (res) {
-                viewManager.cleanView();
-                viewManager.showResult(res.data);
-            })
-            .catch(function (err) {
-                console.error(err);
-                viewManager.showError("No se pudieron cargar los datos del directorio. Por favor, intente de nuevo más tarde.");
-            });
-    });
+   const apiSettings = {
+      "baseUrl":"http://localhost:3000"
+   };
+   
+   const apiManager = new ApiManager(apiSettings);
+   const viewManager = new View(document);
+   
+   const payload = {};
+   
+   
+   apiManager.getSites(payload)
+        .then((res) => {
+                        
+            viewManager.cleanView();
+            viewManager.showResult(res.data);
+        })
+        .catch((err) => {
+           
+            console.error(err);
+            viewManager.showError("No se pudieron cargar los datos del directorio. Por favor, intente de nuevo más tarde.");
+        })
+        .finally(() => {
+            
+        });     
 }
 
-// Only auto-execute in production (not in test runner)
-if (typeof mocha === 'undefined') {
-    main();
-}
+window.addEventListener("load", main);
