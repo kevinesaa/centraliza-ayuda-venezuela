@@ -190,13 +190,13 @@ class ApiManager {
                     descripcion:"Emergency Relief for Venezuela Earthquake Victims"
                 },
                 {
-                    id:24,
+                    id:25,
                     nombre:"Dona - Yummy Rides",
                     url:"HTTPS://DONA.YUMMYRIDES.COM/",
                     descripcion:"Campaña de donación por Yummy Rides"
                 },
                 {
-                    id:24,
+                    id:26,
                     nombre:"Héroes - Yummy Rides",
                     url:"https://heroes.yummyrides.com/",
                     descripcion:"brindando traslados a Personal de primera respuesta gratis desde y hacia donde sea necesario"
