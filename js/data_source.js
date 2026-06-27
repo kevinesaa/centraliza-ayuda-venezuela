@@ -140,6 +140,12 @@ class ApiManager {
                     nombre: "HuellasCan - Terremoto",
                     url: "https://www.huellascan.com/terremoto",
                     descripcion: "Información sobre mascotas perdidas y encontradas tras el terremoto"
+                },
+                {
+                    id:17,
+                    nombre:"Intérpretes voluntarios EIM-UCV",
+                    url:"https://docs.google.com/forms/d/e/1FAIpQLScXzwYRf6lJPfcJaKdAMDbeehH1pbMkU7QEq5UTSYOpWQubOQ/viewform",
+                    descripcion:"Estamos organizando un equipo de intérpretes voluntarios para misiones internacionales de rescate"
                 }
             ]
                
