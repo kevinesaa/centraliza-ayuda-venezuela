@@ -286,5 +286,41 @@
         "url": "https://docs.google.com/forms/d/e/1FAIpQLSdbBkuuMs5fTGux_zvbzsEaolKRBc-rMlH98ZvBp4O61U_pTw/viewform",
         "descripcion": "Recopilar de forma r\u00e1pida y estandarizada la informaci\u00f3n t\u00e9cnica de edificaciones en la Gran Caracas tras los eventos s\u00edsmicos recientes.",
         "id": 48
+    },
+    {
+        "nombre": "Colegio de Ingenieros de Venezuela (CIV)",
+        "url": "https://instagram.com/civoficial",
+        "descripcion": "Brigadas de ingenieros para inspecci\u00f3n de habitabilidad e infraestructura cr\u00edtica tras el sismo (perfil oficial)",
+        "id": 49
+    },
+    {
+        "nombre": "Centro de Ingenier\u00eda S\u00edsmica (CICIS)",
+        "url": "https://instagram.com/cicis.inmme",
+        "descripcion": "Coordina criterios de inspecci\u00f3n y brigadas de evaluaci\u00f3n estructural con universidades (perfil oficial)",
+        "id": 50
+    },
+    {
+        "nombre": "Grupo \u00c1vila - Inspecci\u00f3n estructural gratuita",
+        "url": "https://wa.me/584241993167",
+        "descripcion": "Evaluaci\u00f3n presencial gratuita de estructuras con da\u00f1os visibles en Chacao, Baruta, El Hatillo y Sucre (contacto por WhatsApp)",
+        "id": 51
+    },
+    {
+        "nombre": "World Central Kitchen",
+        "url": "https://wck.org/es/relief/wck-en-venezuela-despues-de-terremotos-consecutivos",
+        "descripcion": "Los equipos de WCK comenzaron a servir comidas lo m\u00e1s r\u00e1pido posible.",
+        "id": 52
+    },
+    {
+        "nombre": "Direct Relief",
+        "url": "https://directrelief.org/2026/06/venezuela-earthquake-caracas-damage",
+        "descripcion": "Donaciones para suministros m\u00e9dicos de emergencia",
+        "id": 53
+    },
+    {
+        "nombre": "Fundaci\u00f3n Lealtad",
+        "url": "https://fundacionlealtad.org/terremotos-venezuela-respuesta-ong-acreditadas",
+        "descripcion": "Listado de ONG acreditadas que responden al terremoto, para donar con seguridad",
+        "id": 54
     }
 ]
