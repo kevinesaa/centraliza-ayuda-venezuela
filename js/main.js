@@ -7,7 +7,8 @@ function main() {
    };
    
    const apiManager = new ApiManager(apiSettings);
-   const viewManager = new View(document);
+   const resultItemViewBuilder = new ResultItemViewBuilder({ rootView: document });
+   const viewManager = new View(document, { resultItemViewBuilder: resultItemViewBuilder });
    
    const payload = {};
    
@@ -30,7 +31,7 @@ function main() {
    // =========================
    // ==== tag item view builder ===
    // =========================
-   const tagItemViewBuilder = new TagItemViewBuilder({});
+   const tagItemViewBuilder = new TagItemViewBuilder({ rootView: document });
 
    // =============================
    // ==== selected tag zone ======

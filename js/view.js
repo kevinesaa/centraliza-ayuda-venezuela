@@ -1,9 +1,13 @@
 class View {
 
     #rootView;
+    #resultItemViewBuilder;
 
-    constructor(rootView) {
+    constructor(rootView, config) {
         this.#rootView = rootView;
+        this.#resultItemViewBuilder = config && config.resultItemViewBuilder
+            ? config.resultItemViewBuilder
+            : null;
     }
 
     cleanView() {
@@ -24,26 +28,7 @@ class View {
         }
 
         for (const site of data) {
-            const li = document.createElement('li');
-            li.className = 'site-card';
-
-            if (site.nombre && site.url) {
-                const a = document.createElement('a');
-                a.href = site.url;
-                a.target = '_blank';
-                a.rel = 'noopener noreferrer';
-                a.className = 'site-name';
-                a.textContent = site.nombre;
-                li.appendChild(a);
-            }
-
-            if (site.descripcion) {
-                const p = document.createElement('p');
-                p.className = 'site-description';
-                p.textContent = site.descripcion;
-                li.appendChild(p);
-            }
-
+            const li = this.#resultItemViewBuilder.buildItemView(site);
             sitesList.appendChild(li);
         }
     }

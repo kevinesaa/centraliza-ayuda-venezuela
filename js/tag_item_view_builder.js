@@ -1,18 +1,20 @@
 class TagItemViewBuilder {
 
+    #rootView;
+
     constructor(config) {
-        // config reservado para futura configuración
+        this.#rootView = (config && config.rootView) ? config.rootView : document;
     }
 
     buildItemView(tagStr) {
-        const button = document.createElement('button');
+        const button = this.#rootView.createElement('button');
         button.className = 'sidebar-tag-btn';
         button.setAttribute('role', 'checkbox');
         button.setAttribute('aria-checked', 'false');
         button.setAttribute('aria-label', tagStr);
         button.dataset.tag = tagStr;
 
-        const labelSpan = document.createElement('span');
+        const labelSpan = this.#rootView.createElement('span');
         labelSpan.className = 'sidebar-tag-btn__label';
         if (tagStr.length > 30) {
             labelSpan.textContent = tagStr.substring(0, 30) + '\u2026';
@@ -21,7 +23,7 @@ class TagItemViewBuilder {
             labelSpan.textContent = tagStr;
         }
 
-        const indicator = document.createElement('span');
+        const indicator = this.#rootView.createElement('span');
         indicator.className = 'sidebar-tag-btn__indicator';
         indicator.setAttribute('aria-hidden', 'true');
 
