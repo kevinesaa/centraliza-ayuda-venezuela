@@ -3,330 +3,1232 @@
         "id": 1,
         "nombre": "Hospitales en Venezuela",
         "url": "https://hospitalesenvenezuela.com",
-        "descripcion": "Aplicaci\u00f3n para encontrar a quien est\u00e1 ingresado en un hospital o centro de salud en Venezuela"
+        "descripcion": "Aplicaci\u00f3n para encontrar a quien est\u00e1 ingresado en un hospital o centro de salud en Venezuela",
+        "tags": [
+            "Salud y Emergencia"
+        ]
     },
     {
         "id": 2,
         "nombre": "Desaparecidos Terremoto Venezuela",
         "url": "https://desaparecidosterremotovenezuela.com",
-        "descripcion": "Portal para reportar y buscar personas desaparecidas tras el terremoto en Venezuela"
+        "descripcion": "Portal para reportar y buscar personas desaparecidas tras el terremoto en Venezuela",
+        "tags": [
+            "B\u00fasqueda de Personas"
+        ]
     },
     {
         "id": 3,
         "nombre": "Venezuela Reporta",
         "url": "https://venezuelareporta.org",
-        "descripcion": "Plataforma para reportar y buscar personas desaparecidas en Venezuela"
+        "descripcion": "Plataforma para reportar y buscar personas desaparecidas en Venezuela",
+        "tags": [
+            "B\u00fasqueda de Personas"
+        ]
     },
     {
         "id": 4,
         "nombre": "Venezuela Te Busca",
         "url": "https://venezuelatebusca.com",
-        "descripcion": "Portal de b\u00fasqueda de personas desaparecidas tras el terremoto"
+        "descripcion": "Portal de b\u00fasqueda de personas desaparecidas tras el terremoto",
+        "tags": [
+            "B\u00fasqueda de Personas"
+        ]
     },
     {
         "id": 5,
         "nombre": "Venezuela - Tiltely",
         "url": "https://venezuela.tiltely.com",
-        "descripcion": "Plataforma de reporte de personas desaparecidas"
+        "descripcion": "Plataforma de reporte de personas desaparecidas",
+        "tags": [
+            "B\u00fasqueda de Personas"
+        ]
     },
     {
         "id": 6,
         "nombre": "Terremoto Venezuela",
         "url": "https://terremotovenezuela.com",
-        "descripcion": "Mapa centralizado de da\u00f1os estructurales reportados por ciudadanos tras el terremoto"
+        "descripcion": "Mapa centralizado de da\u00f1os estructurales reportados por ciudadanos tras el terremoto",
+        "tags": [
+            "Infraestructura y Riesgos",
+            "Mapas y Tecnolog\u00eda"
+        ]
     },
     {
         "id": 7,
         "nombre": "Revisa Tu Edificio",
         "url": "https://revisatuedificio.com",
-        "descripcion": "Registro de ingenieros para inspecci\u00f3n de habitabilidad y evaluaci\u00f3n de da\u00f1os estructurales"
+        "descripcion": "Registro de ingenieros para inspecci\u00f3n de habitabilidad y evaluaci\u00f3n de da\u00f1os estructurales",
+        "tags": [
+            "Infraestructura y Riesgos"
+        ]
     },
     {
         "id": 8,
         "nombre": "Tilin App",
         "url": "https://tilinapp.com",
-        "descripcion": "Evaluaci\u00f3n de da\u00f1os estructurales e inspecci\u00f3n de habitabilidad"
+        "descripcion": "Evaluaci\u00f3n de da\u00f1os estructurales e inspecci\u00f3n de habitabilidad",
+        "tags": [
+            "Infraestructura y Riesgos"
+        ]
     },
     {
         "id": 9,
         "nombre": "Habitable",
         "url": "https://habitable.lovable.app",
-        "descripcion": "Plataforma para evaluar la habitabilidad de edificios afectados"
+        "descripcion": "Plataforma para evaluar la habitabilidad de edificios afectados",
+        "tags": [
+            "Infraestructura y Riesgos"
+        ]
     },
     {
         "id": 10,
         "nombre": "Rescate Venezuela",
         "url": "https://rescate-ve.vercel.app",
-        "descripcion": "Coordinaci\u00f3n de apoyo presencial, rescate y log\u00edstica de transporte"
+        "descripcion": "Coordinaci\u00f3n de apoyo presencial, rescate y log\u00edstica de transporte",
+        "tags": [
+            "Salud y Emergencia",
+            "Voluntariado"
+        ]
     },
     {
         "id": 11,
         "nombre": "Ayuda Para Venezuela",
         "url": "https://ayudaparavenezuela.com",
-        "descripcion": "Centros de acopio e insumos requeridos por zona para los afectados"
+        "descripcion": "Centros de acopio e insumos requeridos por zona para los afectados",
+        "tags": [
+            "Acopios y Donaciones",
+            "Refugios y Alojamiento"
+        ]
     },
     {
         "id": 12,
         "nombre": "VeneConnect - Apoyo Terremoto",
         "url": "https://veneconnect.com/apoyo-terremoto",
-        "descripcion": "Red de centros de acopio y apoyo para afectados por el terremoto"
+        "descripcion": "Red de centros de acopio y apoyo para afectados por el terremoto",
+        "tags": [
+            "Acopios y Donaciones",
+            "Refugios y Alojamiento",
+            "Voluntariado"
+        ]
     },
     {
         "id": 13,
         "nombre": "Zona Segura",
         "url": "https://zonasegura.up.railway.app",
-        "descripcion": "Centros de acopio, refugios y alojamiento para afectados"
+        "descripcion": "Centros de acopio, refugios y alojamiento para afectados",
+        "tags": [
+            "Acopios y Donaciones",
+            "Refugios y Alojamiento"
+        ]
     },
     {
         "id": 14,
         "nombre": "Refugios Venezuela",
         "url": "https://refugiosvenezuela.com",
-        "descripcion": "Centros de alimentaci\u00f3n, refugios y alojamiento disponibles para los afectados"
+        "descripcion": "Centros de alimentaci\u00f3n, refugios y alojamiento disponibles para los afectados",
+        "tags": [
+            "Refugios y Alojamiento"
+        ]
     },
     {
         "id": 15,
         "nombre": "Pacientes Terremoto Venezuela",
         "url": "https://pacientesterremotovzla.lovable.app",
-        "descripcion": "Consulta de pacientes ingresados en hospitales tras el terremoto"
+        "descripcion": "Consulta de pacientes ingresados en hospitales tras el terremoto",
+        "tags": [
+            "Salud y Emergencia"
+        ]
     },
     {
         "id": 16,
         "nombre": "HuellasCan - Terremoto",
         "url": "https://huellascan.com/terremoto",
-        "descripcion": "Informaci\u00f3n sobre mascotas perdidas y encontradas tras el terremoto"
+        "descripcion": "Informaci\u00f3n sobre mascotas perdidas y encontradas tras el terremoto",
+        "tags": [
+            "Mascotas"
+        ]
     },
     {
         "id": 17,
         "nombre": "Mascotas por Venezuela",
         "url": "https://mascotasporvenezuela.com",
-        "descripcion": "Una plataforma para reunir a las mascotas perdidas con sus familias tras el terremoto"
+        "descripcion": "Una plataforma para reunir a las mascotas perdidas con sus familias tras el terremoto",
+        "tags": [
+            "Mascotas"
+        ]
     },
     {
         "id": 18,
         "nombre": "Patitas a Salvo - Mi Gente Ve",
         "url": "https://migenteve.com",
-        "descripcion": "Registra mascotas perdidas, encontradas o con necesidad m\u00e9dica despu\u00e9s de un terremoto. La comunidad puede buscar por zona, compartir casos y ubicar reportes en el mapa."
+        "descripcion": "Registra mascotas perdidas, encontradas o con necesidad m\u00e9dica despu\u00e9s de un terremoto. La comunidad puede buscar por zona, compartir casos y ubicar reportes en el mapa.",
+        "tags": [
+            "Mapas y Tecnolog\u00eda",
+            "Mascotas",
+            "Voluntariado"
+        ]
     },
     {
         "id": 19,
         "nombre": "Int\u00e9rpretes voluntarios EIM-UCV",
         "url": "https://docs.google.com/forms/d/e/1FAIpQLScXzwYRf6lJPfcJaKdAMDbeehH1pbMkU7QEq5UTSYOpWQubOQ/viewform",
-        "descripcion": "Estamos organizando un equipo de int\u00e9rpretes voluntarios para misiones internacionales de rescate"
+        "descripcion": "Estamos organizando un equipo de int\u00e9rpretes voluntarios para misiones internacionales de rescate",
+        "tags": [
+            "Salud y Emergencia",
+            "Voluntariado"
+        ]
     },
     {
         "id": 20,
         "nombre": "Directorio De Iniciativas Ciudadanas",
         "url": "https://redesayuda.org/iniciativasciudadanas",
-        "descripcion": "lugar para registrar distintas iniciativas ciudadanas"
+        "descripcion": "lugar para registrar distintas iniciativas ciudadanas",
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
     },
     {
         "id": 21,
         "nombre": "vzlayuda",
         "url": "https://vzlayuda.com",
-        "descripcion": "Encuentra o brinda ayuda cerca de ti. Sin cuentas, al instante."
+        "descripcion": "Encuentra o brinda ayuda cerca de ti. Sin cuentas, al instante.",
+        "tags": [
+            "Informaci\u00f3n General"
+        ]
     },
     {
         "id": 22,
         "nombre": "Hazlo Hoy - Venezuela Ayuda",
         "url": "https://terremoto.hazlohoy.org",
-        "descripcion": "Conectando personas, familias y ayuda durante la emergencia"
+        "descripcion": "Conectando personas, familias y ayuda durante la emergencia",
+        "tags": [
+            "B\u00fasqueda de Personas",
+            "Salud y Emergencia"
+        ]
     },
     {
         "id": 23,
         "nombre": "Alimenta la solidaridad",
         "url": "https://donate.alimentalasolidaridad.org/campaign/815565/donate",
-        "descripcion": "Activamos nuestra red humanitaria para acompa\u00f1ar a las comunidades afectadas por el terremoto y llevar ayuda donde m\u00e1s se necesita"
+        "descripcion": "Activamos nuestra red humanitaria para acompa\u00f1ar a las comunidades afectadas por el terremoto y llevar ayuda donde m\u00e1s se necesita",
+        "tags": [
+            "Acopios y Donaciones",
+            "Voluntariado"
+        ]
     },
     {
         "id": 24,
         "nombre": "Campa\u00f1a de Go Fund Me",
         "url": "https://gofundme.com/f/emergency-relief-for-venezuela-earthquake-victims",
-        "descripcion": "Emergency Relief for Venezuela Earthquake Victims"
+        "descripcion": "Emergency Relief for Venezuela Earthquake Victims",
+        "tags": [
+            "Acopios y Donaciones"
+        ]
     },
     {
         "id": 25,
         "nombre": "Dona - Yummy Rides",
         "url": "https://dona.yummyrides.com",
-        "descripcion": "Campa\u00f1a de donaci\u00f3n por Yummy Rides"
+        "descripcion": "Campa\u00f1a de donaci\u00f3n por Yummy Rides",
+        "tags": [
+            "Acopios y Donaciones"
+        ]
     },
     {
         "id": 26,
         "nombre": "H\u00e9roes - Yummy Rides",
         "url": "https://heroes.yummyrides.com",
-        "descripcion": "brindando traslados a Personal de primera respuesta gratis desde y hacia donde sea necesario"
+        "descripcion": "brindando traslados a Personal de primera respuesta gratis desde y hacia donde sea necesario",
+        "tags": [
+            "B\u00fasqueda de Personas"
+        ]
     },
     {
         "id": 27,
         "nombre": "Build for Venezuela",
         "url": "https://build4venezuela.com/es",
-        "descripcion": "Una hackathon humanitaria para construir soluciones tech por Venezuela"
+        "descripcion": "Una hackathon humanitaria para construir soluciones tech por Venezuela",
+        "tags": [
+            "Informaci\u00f3n General"
+        ]
     },
     {
         "id": 28,
         "nombre": "Salud pro",
         "url": "https://apoyo.salu.pro",
-        "descripcion": "Registro centralizado y gratuito de personas desaparecidas tras la cat\u00e1strofe."
+        "descripcion": "Registro centralizado y gratuito de personas desaparecidas tras la cat\u00e1strofe.",
+        "tags": [
+            "B\u00fasqueda de Personas",
+            "Salud y Emergencia"
+        ]
     },
     {
         "nombre": "UN Crisis Relief \u2013 Venezuela",
         "url": "https://crisisrelief.un.org/en/donate-venezuela-crisis",
         "descripcion": "Fondo humanitario de la ONU para la respuesta de emergencia",
-        "id": 29
+        "id": 29,
+        "tags": [
+            "Acopios y Donaciones",
+            "Salud y Emergencia"
+        ]
     },
     {
         "nombre": "SOS Venezuela 2026",
         "url": "https://sosvenezuela2026.com",
         "descripcion": "Mapa colaborativo en vivo para reportar colapsos y da\u00f1os y buscar personas, con validaci\u00f3n comunitaria",
-        "id": 30
+        "id": 30,
+        "tags": [
+            "B\u00fasqueda de Personas",
+            "Infraestructura y Riesgos",
+            "Mapas y Tecnolog\u00eda",
+            "Voluntariado"
+        ]
     },
     {
         "nombre": "Encu\u00e9ntralos",
         "url": "https://encuentralos.tecnosoft.dev",
         "descripcion": "Reporte y b\u00fasqueda instant\u00e1nea de personas desaparecidas, sin registro; agrega refugios y puntos de donaci\u00f3n",
-        "id": 31
+        "id": 31,
+        "tags": [
+            "Acopios y Donaciones",
+            "B\u00fasqueda de Personas",
+            "Mapas y Tecnolog\u00eda",
+            "Refugios y Alojamiento"
+        ]
     },
     {
         "nombre": "Venezuela Te Necesita",
         "url": "https://venezuelatenecesita.com",
         "descripcion": "Coordinaci\u00f3n de emergencia que combina centros de acopio por estado y b\u00fasqueda de desaparecidos",
-        "id": 32
+        "id": 32,
+        "tags": [
+            "Acopios y Donaciones",
+            "B\u00fasqueda de Personas",
+            "Salud y Emergencia"
+        ]
     },
     {
         "nombre": "Red de Emergencia VE",
         "url": "https://redayudavenezuela.com",
         "descripcion": "Red ciudadana para avisar \u00abestoy a salvo\u00bb, buscar personas y coordinar ayuda",
-        "id": 33
+        "id": 33,
+        "tags": [
+            "B\u00fasqueda de Personas",
+            "Mapas y Tecnolog\u00eda",
+            "Salud y Emergencia"
+        ]
     },
     {
         "nombre": "SismoAyuda VE",
         "url": "https://sismoayudave.com",
         "descripcion": "Ingenieros y arquitectos voluntarios eval\u00faan la habitabilidad de tu inmueble a partir de fotos, bajo est\u00e1ndares ATC-20 y EMS-98",
-        "id": 34
+        "id": 34,
+        "tags": [
+            "Infraestructura y Riesgos",
+            "Voluntariado"
+        ]
     },
     {
         "nombre": "Caracas Ayuda",
         "url": "https://caracasayuda.com",
         "descripcion": "Mapa interactivo de agua, comida, refugios, hospitales y puntos de ayuda en Caracas, con caducidad autom\u00e1tica de los reportes",
-        "id": 35
+        "id": 35,
+        "tags": [
+            "Acopios y Donaciones",
+            "Mapas y Tecnolog\u00eda",
+            "Refugios y Alojamiento",
+            "Salud y Emergencia"
+        ]
     },
     {
         "nombre": "Todos Con VZLA",
         "url": "https://todosconvzla.com",
         "descripcion": "Mapa ciudadano no partidista para reportar desaparecidos, da\u00f1os, refugios y puntos de ayuda",
-        "id": 36
+        "id": 36,
+        "tags": [
+            "B\u00fasqueda de Personas",
+            "Infraestructura y Riesgos",
+            "Mapas y Tecnolog\u00eda",
+            "Refugios y Alojamiento"
+        ]
     },
     {
         "nombre": "Centros de Acopio Venezuela",
         "url": "https://centrosayudavenezuela.org",
         "descripcion": "Directorio buscable de centros de acopio activos por ciudad, organizaci\u00f3n o tipo de insumo",
-        "id": 37
+        "id": 37,
+        "tags": [
+            "Acopios y Donaciones",
+            "Mapas y Tecnolog\u00eda"
+        ]
     },
     {
         "nombre": "C\u00e1ritas de Venezuela",
         "url": "https://caritasvenezuela.org",
         "descripcion": "Recepci\u00f3n y distribuci\u00f3n de donaciones (agua, alimentos, higiene, medicinas) a trav\u00e9s de la red de la Iglesia",
-        "id": 38
+        "id": 38,
+        "tags": [
+            "Acopios y Donaciones",
+            "Salud y Emergencia"
+        ]
     },
     {
         "nombre": "PsicoMapa / PsicoData (UCAB)",
         "url": "https://psicodatavzla.ucab.edu.ve",
         "descripcion": "Mapa de m\u00e1s de 100 organizaciones de atenci\u00f3n psicol\u00f3gica por estado; la UCAB ofrece adem\u00e1s primeros auxilios psicol\u00f3gicos gratuitos por tel\u00e9fono",
-        "id": 39
+        "id": 39,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
     },
     {
         "nombre": "GlobalGiving \u2013 Venezuela Earthquake Relief Fund",
         "url": "https://globalgiving.org/projects/venezuela-earthquake-relief-fund",
         "descripcion": "Fondo internacional que canaliza donaciones a organizaciones locales de salud, refugio, agua y alimentos",
-        "id": 40
+        "id": 40,
+        "tags": [
+            "Acopios y Donaciones",
+            "Refugios y Alojamiento",
+            "Salud y Emergencia"
+        ]
     },
     {
         "nombre": "C\u00e1ritas Internationalis",
         "url": "https://donate.caritas.org/venezuela",
         "descripcion": "Donaciones internacionales para la respuesta de C\u00e1ritas Venezuela en terreno",
-        "id": 41
+        "id": 41,
+        "tags": [
+            "Acopios y Donaciones"
+        ]
     },
     {
         "nombre": "Catholic Relief Services (CRS)",
         "url": "https://crs.org/donate/venezuela-earthquake",
         "descripcion": "Donaciones internacionales canalizadas con C\u00e1ritas Venezuela: refugio, alimentos, agua y salud",
-        "id": 42
+        "id": 42,
+        "tags": [
+            "Acopios y Donaciones",
+            "Refugios y Alojamiento",
+            "Salud y Emergencia"
+        ]
     },
     {
         "nombre": "M\u00e9dicos del Mundo",
         "url": "https://medicosdelmundo.org/donacion-ong/campana/terremoto-venezuela",
         "descripcion": "Donaciones para atenci\u00f3n m\u00e9dica de emergencia con equipos presentes en el pa\u00eds",
-        "id": 43
+        "id": 43,
+        "tags": [
+            "Acopios y Donaciones",
+            "Salud y Emergencia"
+        ]
     },
     {
         "nombre": "International Medical Corps",
         "url": "https://internationalmedicalcorps.org/emergency-response/venezuela-earthquakes",
         "descripcion": "Donaciones para atenci\u00f3n m\u00e9dica de emergencia en terreno",
-        "id": 44
+        "id": 44,
+        "tags": [
+            "Acopios y Donaciones",
+            "Salud y Emergencia"
+        ]
     },
     {
         "nombre": "Yummy \u2013 SOS",
         "url": "https://sos.yummyrides.com",
         "descripcion": "Reporte de da\u00f1os con foto y ubicaci\u00f3n, m\u00e1s log\u00edstica solidaria: entregas gratuitas de agua, alimentos y medicinas",
-        "id": 45
+        "id": 45,
+        "tags": [
+            "Acopios y Donaciones",
+            "Infraestructura y Riesgos",
+            "Salud y Emergencia"
+        ]
     },
     {
         "nombre": "Ridery",
         "url": "https://web.ridery.app",
         "descripcion": "Viajes gratuitos a cl\u00ednicas y hospitales de Caracas y centros de recepci\u00f3n de ayuda humanitaria",
-        "id": 46
+        "id": 46,
+        "tags": [
+            "Salud y Emergencia"
+        ]
     },
     {
         "nombre": "SEO for Venezuela",
         "url": "https://seoforvenezuela.com",
         "descripcion": "Donate to one of the relief funds below, upload your receipt in the form, and I\u2019ll record you a personal 5-minute Loom audit of your website, in English or Spanish",
-        "id": 47
+        "id": 47,
+        "tags": [
+            "Acopios y Donaciones",
+            "B\u00fasqueda de Personas"
+        ]
     },
     {
         "nombre": "Brigada de apoyo- Evaluaci\u00f3n de riesgos",
         "url": "https://docs.google.com/forms/d/e/1FAIpQLSdbBkuuMs5fTGux_zvbzsEaolKRBc-rMlH98ZvBp4O61U_pTw/viewform",
         "descripcion": "Recopilar de forma r\u00e1pida y estandarizada la informaci\u00f3n t\u00e9cnica de edificaciones en la Gran Caracas tras los eventos s\u00edsmicos recientes.",
-        "id": 48
+        "id": 48,
+        "tags": [
+            "Infraestructura y Riesgos",
+            "Voluntariado"
+        ]
     },
     {
         "nombre": "Colegio de Ingenieros de Venezuela (CIV)",
         "url": "https://instagram.com/civoficial",
         "descripcion": "Brigadas de ingenieros para inspecci\u00f3n de habitabilidad e infraestructura cr\u00edtica tras el sismo (perfil oficial)",
-        "id": 49
+        "id": 49,
+        "tags": [
+            "Infraestructura y Riesgos"
+        ]
     },
     {
         "nombre": "Centro de Ingenier\u00eda S\u00edsmica (CICIS)",
         "url": "https://instagram.com/cicis.inmme",
         "descripcion": "Coordina criterios de inspecci\u00f3n y brigadas de evaluaci\u00f3n estructural con universidades (perfil oficial)",
-        "id": 50
+        "id": 50,
+        "tags": [
+            "Infraestructura y Riesgos"
+        ]
     },
     {
         "nombre": "Grupo \u00c1vila - Inspecci\u00f3n estructural gratuita",
         "url": "https://wa.me/584241993167",
         "descripcion": "Evaluaci\u00f3n presencial gratuita de estructuras con da\u00f1os visibles en Chacao, Baruta, El Hatillo y Sucre (contacto por WhatsApp)",
-        "id": 51
+        "id": 51,
+        "tags": [
+            "Comunicaciones",
+            "Infraestructura y Riesgos"
+        ]
     },
     {
         "nombre": "World Central Kitchen",
         "url": "https://wck.org/es/relief/wck-en-venezuela-despues-de-terremotos-consecutivos",
         "descripcion": "Los equipos de WCK comenzaron a servir comidas lo m\u00e1s r\u00e1pido posible.",
-        "id": 52
+        "id": 52,
+        "tags": [
+            "Acopios y Donaciones"
+        ]
     },
     {
         "nombre": "Direct Relief",
         "url": "https://directrelief.org/2026/06/venezuela-earthquake-caracas-damage",
         "descripcion": "Donaciones para suministros m\u00e9dicos de emergencia",
-        "id": 53
+        "id": 53,
+        "tags": [
+            "Acopios y Donaciones",
+            "Salud y Emergencia"
+        ]
     },
     {
         "nombre": "Fundaci\u00f3n Lealtad",
         "url": "https://fundacionlealtad.org/terremotos-venezuela-respuesta-ong-acreditadas",
         "descripcion": "Listado de ONG acreditadas que responden al terremoto, para donar con seguridad",
-        "id": 54
+        "id": 54,
+        "tags": [
+            "Acopios y Donaciones"
+        ]
     },
     {
         "nombre": "busqueda_vzla_temblor_bot - Bot de Telegram",
         "url": "https://t.me/busqueda_vzla_temblor_bot",
         "descripcion": "Bot de Telegram te ayuda a encontrar a familiares ingresados en hospitales tras el sismo",
-        "id": 55
+        "id": 55,
+        "tags": [
+            "Comunicaciones",
+            "Mapas y Tecnolog\u00eda",
+            "Salud y Emergencia"
+        ]
+    },
+    {
+        "nombre": "Desaparecidos Venezuela",
+        "url": "https://desaparecidosvenezuela.com",
+        "descripcion": "Reporte/busqueda; paginable via ?skip=",
+        "id": 56,
+        "tags": [
+            "B\u00fasqueda de Personas"
+        ]
+    },
+    {
+        "nombre": "Localizados Venezuela",
+        "url": "https://localizadosvenezuela.com",
+        "descripcion": "Personas en listas de hospitales; codigo abierto",
+        "id": 57,
+        "tags": [
+            "B\u00fasqueda de Personas",
+            "Mapas y Tecnolog\u00eda",
+            "Salud y Emergencia"
+        ]
+    },
+    {
+        "nombre": "Reporte Venezuela",
+        "url": "https://reportevenezuela.com",
+        "descripcion": "Heridos en hospitales/refugios (filtro duplicados)",
+        "id": 58,
+        "tags": [
+            "B\u00fasqueda de Personas",
+            "Refugios y Alojamiento",
+            "Salud y Emergencia"
+        ]
+    },
+    {
+        "nombre": "mBuscan",
+        "url": "https://mbuscan.com",
+        "descripcion": "Plataforma ciudadana sin login",
+        "id": 59,
+        "tags": [
+            "B\u00fasqueda de Personas"
+        ]
+    },
+    {
+        "nombre": "Encuentralos VZLA",
+        "url": "https://encuentralosvzla.com",
+        "descripcion": "Reporte de menores",
+        "id": 60,
+        "tags": [
+            "B\u00fasqueda de Personas"
+        ]
+    },
+    {
+        "nombre": "Red Sonadoras",
+        "url": "https://redsonadoras.com",
+        "descripcion": "Hasta Encontrarles' buscador",
+        "id": 61,
+        "tags": [
+            "B\u00fasqueda de Personas"
+        ]
+    },
+    {
+        "nombre": "VEA 2026",
+        "url": "https://vea2026.com",
+        "descripcion": "Listado (marcado para unificar)",
+        "id": 62,
+        "tags": [
+            "B\u00fasqueda de Personas"
+        ]
+    },
+    {
+        "nombre": "Busqueda VZLA",
+        "url": "https://busquedavzla.netlify.app",
+        "descripcion": "Buscador",
+        "id": 63,
+        "tags": [
+            "B\u00fasqueda de Personas"
+        ]
+    },
+    {
+        "nombre": "VenApp",
+        "url": "https://venapp.com",
+        "descripcion": "Buscador",
+        "id": 64,
+        "tags": [
+            "B\u00fasqueda de Personas"
+        ]
+    },
+    {
+        "nombre": "Aid Venezuela (NUEVO)",
+        "url": "https://aidvenezuela.net",
+        "descripcion": "Reporte/agregador",
+        "id": 65,
+        "tags": [
+            "B\u00fasqueda de Personas",
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "SOS Venezuela (net) (NUEVO)",
+        "url": "https://sosvenezuela.net",
+        "descripcion": "Reporte",
+        "id": 66,
+        "tags": [
+            "B\u00fasqueda de Personas"
+        ]
+    },
+    {
+        "nombre": "Unidos Venezuela (NUEVO)",
+        "url": "https://unidosvenezuela.vercel.app",
+        "descripcion": "Reporte",
+        "id": 67,
+        "tags": [
+            "B\u00fasqueda de Personas"
+        ]
+    },
+    {
+        "nombre": "Terremoto en Venezuela (NUEVO)",
+        "url": "https://terremotoenvenezuela.com",
+        "descripcion": "Reporte",
+        "id": 68,
+        "tags": [
+            "B\u00fasqueda de Personas"
+        ]
+    },
+    {
+        "nombre": "Buscador Unificado VZLA (NUEVO)",
+        "url": "https://github.com/joeyrubio/buscador-unificado-vzla",
+        "descripcion": "Proyecto para UNIFICAR data desaparecidos/ubicados",
+        "id": 69,
+        "tags": [
+            "B\u00fasqueda de Personas",
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Familias-Hospital",
+        "url": "https://familias-hospital.vercel.app",
+        "descripcion": "Conecta familias con hospitales",
+        "id": 70,
+        "tags": [
+            "Salud y Emergencia"
+        ]
+    },
+    {
+        "nombre": "Info Salud Sismo VZLA",
+        "url": "https://infosaludsismovzla2026.com",
+        "descripcion": "Info de salud",
+        "id": 71,
+        "tags": [
+            "Salud y Emergencia"
+        ]
+    },
+    {
+        "nombre": "Auxilio Ven",
+        "url": "https://auxilioven.org",
+        "descripcion": "Cruza hospitales vs desaparecidos",
+        "id": 72,
+        "tags": [
+            "B\u00fasqueda de Personas",
+            "Salud y Emergencia"
+        ]
+    },
+    {
+        "nombre": "Sismo Venezuela",
+        "url": "https://sismovenezuela.org",
+        "descripcion": "Mapa colaborativo de edificios",
+        "id": 73,
+        "tags": [
+            "Infraestructura y Riesgos",
+            "Mapas y Tecnolog\u00eda",
+            "Voluntariado"
+        ]
+    },
+    {
+        "nombre": "Terremoto Venezuela (app)",
+        "url": "https://terremotovenezuela.app",
+        "descripcion": "Mapa de danos",
+        "id": 74,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Terremoto VE (netlify)",
+        "url": "https://terremotove.netlify.app",
+        "descripcion": "Mapa (colapsos+desap.+acopios)",
+        "id": 75,
+        "tags": [
+            "Acopios y Donaciones",
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "24JunVE",
+        "url": "https://24junve.statuslocal.net",
+        "descripcion": "Mapa de eventos",
+        "id": 76,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Centinela (NUEVO)",
+        "url": "https://app.appcentinela.com",
+        "descripcion": "Reporte de danos",
+        "id": 77,
+        "tags": [
+            "Informaci\u00f3n General"
+        ]
+    },
+    {
+        "nombre": "RIAVE (NUEVO)",
+        "url": "https://riave-deploy.vercel.app",
+        "descripcion": "Reporte",
+        "id": 78,
+        "tags": [
+            "Informaci\u00f3n General"
+        ]
+    },
+    {
+        "nombre": "Reporta Venezuela (org) (NUEVO)",
+        "url": "https://reportavenezuela.org",
+        "descripcion": "Reporte de danos",
+        "id": 79,
+        "tags": [
+            "Informaci\u00f3n General"
+        ]
+    },
+    {
+        "nombre": "Microsoft AI for Good (HDX) (NUEVO)",
+        "url": "https://data.humdata.org",
+        "descripcion": "Dataset danos edificios Catia La Mar",
+        "id": 80,
+        "tags": [
+            "Infraestructura y Riesgos",
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Reporta Venezuela (Zonas Afectadas)",
+        "url": "https://zonasafectadasvenezuela.app",
+        "descripcion": "Mapa en vivo; consume API de 7uanF",
+        "id": 81,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Venezuela Earthquake Map (NUEVO)",
+        "url": "https://venezuela-earthquake-map.vercel.app",
+        "descripcion": "Heatmap auto-agrega YouTube/X/IG c/10min",
+        "id": 82,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Sheet Centros de Acopio (M. Lozada) (TOP)",
+        "url": "https://docs.google.com/spreadsheets/d/1OTNQGMsK3nU2wqy00rtPPcwsSzAlorWeP-uIotWpkxM",
+        "descripcion": "~100 centros con dir/coords/contacto",
+        "id": 83,
+        "tags": [
+            "Acopios y Donaciones",
+            "Refugios y Alojamiento"
+        ]
+    },
+    {
+        "nombre": "Acopio VE",
+        "url": "https://acopiove.org",
+        "descripcion": "Directorio de acopios, voluntarios int\u00e9rpretes, bot de whatsapp",
+        "id": 84,
+        "tags": [
+            "Acopios y Donaciones",
+            "Comunicaciones",
+            "Mapas y Tecnolog\u00eda",
+            "Refugios y Alojamiento",
+            "Voluntariado"
+        ]
+    },
+    {
+        "nombre": "Acopio VZLA",
+        "url": "https://acopiovzla.com",
+        "descripcion": "Directorio de acopios",
+        "id": 85,
+        "tags": [
+            "Acopios y Donaciones",
+            "Mapas y Tecnolog\u00eda",
+            "Refugios y Alojamiento"
+        ]
+    },
+    {
+        "nombre": "Acopios-Refugios",
+        "url": "https://acopios-refugios.vercel.app",
+        "descripcion": "Acopios+refugios+interpretes",
+        "id": 86,
+        "tags": [
+            "Acopios y Donaciones",
+            "Refugios y Alojamiento"
+        ]
+    },
+    {
+        "nombre": "Hazlo Hoy - Terremoto",
+        "url": "https://hazlohoy.org/terremoto-caracas",
+        "descripcion": "Acopios + como ayudar",
+        "id": 87,
+        "tags": [
+            "Acopios y Donaciones",
+            "Refugios y Alojamiento"
+        ]
+    },
+    {
+        "nombre": "Venezuela Aid Finder",
+        "url": "https://venezuela-aid-finder.lovable.app",
+        "descripcion": "Acopios (sobre data de M. Lozada)",
+        "id": 88,
+        "tags": [
+            "Acopios y Donaciones",
+            "Mapas y Tecnolog\u00eda",
+            "Refugios y Alojamiento"
+        ]
+    },
+    {
+        "nombre": "Info Ayuda Venezuela",
+        "url": "https://infoayudavenezuela.site",
+        "descripcion": "Info de acopios",
+        "id": 89,
+        "tags": [
+            "Acopios y Donaciones",
+            "Refugios y Alojamiento"
+        ]
+    },
+    {
+        "nombre": "Tu Gruero (NUEVO)",
+        "url": "https://tugruero.com",
+        "descripcion": "Logistica/transporte de insumos",
+        "id": 90,
+        "tags": [
+            "Acopios y Donaciones"
+        ]
+    },
+    {
+        "nombre": "Donar Seguro",
+        "url": "https://donarseguro.com",
+        "descripcion": "Fondos verificados",
+        "id": 91,
+        "tags": [
+            "Acopios y Donaciones"
+        ]
+    },
+    {
+        "nombre": "Caritas Venezuela",
+        "url": "https://caritasvenezuela.org/donaciones",
+        "descripcion": "Donaciones ONG",
+        "id": 92,
+        "tags": [
+            "Acopios y Donaciones"
+        ]
+    },
+    {
+        "nombre": "Dividendo Voluntario",
+        "url": "https://dividendovoluntario.org",
+        "descripcion": "Donaciones",
+        "id": 93,
+        "tags": [
+            "Acopios y Donaciones",
+            "Voluntariado"
+        ]
+    },
+    {
+        "nombre": "Fondo BTC UCAB",
+        "url": "https://btc.academiasucab.com/fondo-emergencia-sismo-vzla-2026",
+        "descripcion": "Fondo emergencia en BTC",
+        "id": 94,
+        "tags": [
+            "Acopios y Donaciones",
+            "Salud y Emergencia"
+        ]
+    },
+    {
+        "nombre": "VE Earthquake Relief",
+        "url": "https://venezuela-earthquake-relief.netlify.app",
+        "descripcion": "Agregador de donaciones",
+        "id": 95,
+        "tags": [
+            "Acopios y Donaciones",
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Patas a Casa",
+        "url": "https://patasacasa.com",
+        "descripcion": "Mascotas perdidas",
+        "id": 96,
+        "tags": [
+            "Mascotas"
+        ]
+    },
+    {
+        "nombre": "Aparecio Mi Gente (Telegram)",
+        "url": "https://t.me/aparecio_en_venezuela_bot",
+        "descripcion": "Alerta cuando un nombre aparece en listas",
+        "id": 97,
+        "tags": [
+            "Comunicaciones",
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Encontrados VE (Telegram)",
+        "url": "https://t.me/encontrados_ve_bot",
+        "descripcion": "Consulta por cedula/apellido",
+        "id": 98,
+        "tags": [
+            "Comunicaciones",
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Venezuela Help (acopios)",
+        "url": "https://venezuelahelp.click",
+        "descripcion": "Bot de acopios",
+        "id": 99,
+        "tags": [
+            "Acopios y Donaciones",
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Build4Venezuela (Crafter Station) (TOP)",
+        "url": "https://build4venezuela.com/projects",
+        "descripcion": "Portal hackathon ~30 proyectos; GET /api/projects",
+        "id": 100,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "RedQuipu",
+        "url": "https://redquipu.com",
+        "descripcion": "Plataforma central' (consolida iniciativas)",
+        "id": 102,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Centraliza Ayuda Venezuela",
+        "url": "https://kevinesaa.github.io/centraliza-ayuda-venezuela",
+        "descripcion": "Portal; codigo abierto",
+        "id": 103,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Venezuela Solidaria (NUEVO)",
+        "url": "https://venezuelasolidaria.com",
+        "descripcion": "Directorio de paginas validadas",
+        "id": 104,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Senal de Ayuda",
+        "url": "https://senaldeayuda.org",
+        "descripcion": "Mapa en vivo multi-proposito",
+        "id": 105,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Ayuda VE (DROSS)",
+        "url": "https://ayudave.com",
+        "descripcion": "Mapa reportar/insumos/ayuda",
+        "id": 106,
+        "tags": [
+            "Acopios y Donaciones",
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "VZL Ayuda",
+        "url": "https://vzlayuda.com/ayudar",
+        "descripcion": "Hub multi-proposito",
+        "id": 107,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "SOS Ven (site)",
+        "url": "https://sosven.site",
+        "descripcion": "Hub (personas+mascotas)",
+        "id": 108,
+        "tags": [
+            "B\u00fasqueda de Personas",
+            "Mapas y Tecnolog\u00eda",
+            "Mascotas"
+        ]
+    },
+    {
+        "nombre": "Centro Recursos Venezuela",
+        "url": "https://centrorecursosvenezuela.netlify.app",
+        "descripcion": "Portal de recursos",
+        "id": 109,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Recursos Terremoto Venezuela",
+        "url": "https://recursos-terremoto-venezuela.netlify.app",
+        "descripcion": "Portal de recursos",
+        "id": 110,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Info Central Terremoto VE",
+        "url": "https://info-central-terremoto-venezuela.com",
+        "descripcion": "Portal central",
+        "id": 111,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Venezuela Terremoto 2026",
+        "url": "https://venezuelaterremoto2026.com",
+        "descripcion": "Portal",
+        "id": 112,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Ayuda en Camino",
+        "url": "https://ayudaencamino.com",
+        "descripcion": "Portal de ayuda",
+        "id": 113,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "VZLA Response Hub",
+        "url": "https://vzla-response-hub.vercel.app",
+        "descripcion": "Hub de respuesta",
+        "id": 114,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Pawboard - Build4Venezuela",
+        "url": "https://pawboard.dev/build4venezuela",
+        "descripcion": "Tablero del hackathon",
+        "id": 115,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Punto de Apoyo Venezuela",
+        "url": "https://puntodeapoyovenezuela.com/",
+        "descripcion": "Mapa colaborativo para marcar puntos de apoyo (suministros, centros de acopio, hospitales, WiFi Libre, energ\u00eda, etc), pueden marcar tanto para solicitar como para ofrecer.",
+        "id": 116,
+        "tags": [
+            "Acopios y Donaciones",
+            "Mapas y Tecnolog\u00eda",
+            "Salud y Emergencia",
+            "Voluntariado"
+        ]
+    },
+    {
+        "nombre": "Avapre Venezuela",
+        "url": "https://redh.avapre.com/",
+        "descripcion": "Hub de ayuda rapida y requests de centros medicos",
+        "id": 120,
+        "tags": [
+            "Mapas y Tecnolog\u00eda",
+            "Salud y Emergencia"
+        ]
+    },
+    {
+        "nombre": "ReconectaVenezuela",
+        "url": "https://reconectavenezuela.com",
+        "descripcion": "Internet satelital gratis",
+        "id": 121,
+        "tags": [
+            "Comunicaciones"
+        ]
+    },
+    {
+        "nombre": "Infancia Protegida Vzla",
+        "url": "https://infanciaprotegidavzla.netlify.app/",
+        "descripcion": "Llevar registro y seguirle el rastro a los ni\u00f1os no acompa\u00f1andos",
+        "id": 122,
+        "tags": [
+            "B\u00fasqueda de Personas"
+        ]
+    },
+    {
+        "nombre": "Heroes Venezuela",
+        "url": "https://heroesvenezuela.com",
+        "descripcion": "A traves de geolocalizaci\u00f3n, conecta ayudantes con personas que requieren ayuda en logistica, insumos, etc.",
+        "id": 123,
+        "tags": [
+            "Acopios y Donaciones",
+            "B\u00fasqueda de Personas",
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Encuentrame Vzla",
+        "url": "https://encuentramevzla.com/",
+        "descripcion": "Damos informacion de personas ingresadas centros hospitalarios de Venezela",
+        "id": 124,
+        "tags": [
+            "B\u00fasqueda de Personas",
+            "Comunicaciones",
+            "Salud y Emergencia"
+        ]
+    },
+    {
+        "nombre": "Red Venezuela Activa",
+        "url": "https://ayudavenezuela2026.com",
+        "descripcion": "Conecta necesidades con quienes pueden ayudar: registro de voluntarios y profesionales, casos urgentes, albergues y sus necesidades, mapa en vivo y movilizaci\u00f3n por WhatsApp. Enlaza a las plataformas de personas no localizadas.",
+        "id": 125,
+        "tags": [
+            "B\u00fasqueda de Personas",
+            "Comunicaciones",
+            "Mapas y Tecnolog\u00eda",
+            "Refugios y Alojamiento",
+            "Voluntariado"
+        ]
+    },
+    {
+        "nombre": "De Mano En Mano",
+        "url": "https://demanoenmano.vercel.app/",
+        "descripcion": "Qu\u00e9 ayuda se necesita en tiempo real: hospitales y refugios verificados",
+        "id": 126,
+        "tags": [
+            "Mapas y Tecnolog\u00eda",
+            "Refugios y Alojamiento",
+            "Salud y Emergencia"
+        ]
+    },
+    {
+        "nombre": "API para desarrolladores y agentes",
+        "url": "https://respuestave.org/desarrolladores",
+        "descripcion": "",
+        "id": 127,
+        "tags": [
+            "Mapas y Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "CIVIS Venezuela",
+        "url": "https://civisvenezuela.com",
+        "descripcion": "Plataforma de apoyo ciudadano para emergencia: b\u00fasqueda de personas desaparecidas, reportes de da\u00f1os, mapa de riesgos, puntos de abastecimiento, r\u00e9plicas/sismos, n\u00fameros de emergencia y atenci\u00f3n por WhatsApp con agentes de IA",
+        "id": 128,
+        "tags": [
+            "B\u00fasqueda de Personas",
+            "Comunicaciones",
+            "Infraestructura y Riesgos",
+            "Mapas y Tecnolog\u00eda",
+            "Salud y Emergencia",
+            "Voluntariado"
+        ]
+    },
+    {
+        "nombre": "Sector Ve",
+        "url": "https://sectorve.com/",
+        "descripcion": "Organiza de manera organizada con agentes de IA ifnromacion actualizada organzialdola por secotres ya sea noticias, acopios, donaciones, eventos de ayuda etc",
+        "id": 129,
+        "tags": [
+            "Acopios y Donaciones",
+            "Comunicaciones"
+        ]
+    },
+    {
+        "nombre": "Centinela - Seguridad en Tiempo Real",
+        "url": "https://app.appcentinela.com/instalar",
+        "descripcion": "Centinela - Seguridad en tiempo real para Caracas, Venezuela",
+        "tags": [
+            "Infraestructura y Riesgos"
+        ],
+        "id": 130
     }
 ]

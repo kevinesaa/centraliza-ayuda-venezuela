@@ -60,26 +60,50 @@ def normalize_texts(json_list:list)  -> list:
     return json_list
 
 def normalize_single_url(url:str) -> str:
+    url = url.strip()
+    if not url.startswith("http://") and not url.startswith("https://"):
+        if url.startswith("//"):
+            url = "https:" + url
+        else:
+            url = "https://" + url
+            
     parsed = urlparse(url)
-    # 1. Eliminar fragmento
-    parsed = parsed._replace(fragment="")
-    # 2. Eliminar parámetros de consulta
-    parsed = parsed._replace(query="")
-    # 3. Eliminar prefijo www. del host y convertir host a minúsculas
-    netloc = parsed.netloc
-    if netloc.lower().startswith("www."):
+    scheme = parsed.scheme.lower()
+    netloc = parsed.netloc.lower()
+    
+    if netloc.startswith("www."):
         netloc = netloc[4:]
-    netloc = netloc.lower()
-    parsed = parsed._replace(netloc=netloc)
-    # 4. Eliminar barra final del path
+        
     path = parsed.path
-    if path.endswith("/"):
-        path = path.rstrip("/")
-    parsed = parsed._replace(path=path)
-    # 5. Convertir esquema a minúsculas (scheme y host son case-insensitive, path NO)
-    parsed = parsed._replace(scheme=parsed.scheme.lower())
-    result = urlunparse(parsed)
-    return result
+    path = re.sub(r'/+', '/', path)
+    if path != '/' and path.endswith('/'):
+        path = path.rstrip('/')
+        
+    query = parsed.query
+    if query:
+        query_params = []
+        for param in query.split("&"):
+            if not param:
+                continue
+            parts = param.split("=", 1)
+            name = parts[0].lower()
+            if name.startswith("utm_") or name in ("fbclid", "gclid", "ref", "pru", "usp"):
+                continue
+            query_params.append(param)
+        query = "&".join(query_params)
+        
+    fragment = parsed.fragment
+    if fragment and fragment.lower() in ("tracker", "top", "main"):
+        fragment = ""
+        
+    normalized_parsed = parsed._replace(
+        scheme=scheme,
+        netloc=netloc,
+        path=path,
+        query=query,
+        fragment=fragment
+    )
+    return urlunparse(normalized_parsed)
 
 def normalize_urls(json_list:list) -> list:
     
@@ -104,7 +128,8 @@ def build_new_entry(source:dict) -> dict:
     return {
         "nombre": source["nombre"],
         "url": source["url"],
-        "descripcion": source["descripcion"]
+        "descripcion": source["descripcion"],
+        "tags": source.get("tags", [])
     }
 
 def assign_consecutive_ids(new_entries: list, max_id: int) -> list:
