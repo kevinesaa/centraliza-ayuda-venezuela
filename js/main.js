@@ -1,3 +1,5 @@
+
+
 function main() {
 
    const apiSettings = {
@@ -25,6 +27,13 @@ function main() {
             
         });
    
+        // =============================
+   // ==== selected tag zone ======
+   // =============================
+   const selectedTagZone = new TagSelectedZone({
+
+   });
+
    // =========================
    // ====== side bar =========
    // =========================
@@ -91,10 +100,11 @@ function main() {
 
    sideBar.setOnTagItemClickListener((allTags) => {
 
+        selectedTagZone.setSelectedTags(allTags);
         const text = searchText.getText() == "" ? null:searchText.getText();
         apiManager.seachForSites({
             "textToSearch":text,
-            "tags":tags
+            "tags":allTags
         })
         .then((res) => {
             viewManager.hideErrors();
@@ -117,6 +127,35 @@ function main() {
         });
    });
    
+   selectedTagZone.setOnRemoveTagListener((allSelectedItems) => {
+
+        sideBar.updateSelectedItems(allSelectedItems);
+        const text = searchText.getText() == "" ? null:searchText.getText();
+        apiManager.seachForSites({
+            "textToSearch":text,
+            "tags":allSelectedItems
+        })
+        .then((res) => {
+            viewManager.hideErrors();
+            viewManager.cleanView();
+            if(res?.data?.length > 0) {
+                viewManager.showResult(res.data);
+            }
+            else{
+                viewManager.showError("No se encontraron coincidencias.");
+            }
+        })
+        .catch((err) => {
+            console.error(err);
+            viewManager.hideErrors();
+            viewManager.cleanView();
+            viewManager.showError("No se pudieron cargar los datos del directorio. Por favor, intente de nuevo más tarde.");
+        })
+        .finally(() => {
+            searchText.showLoading(false);
+        });
+   });
+
 }
 
 window.addEventListener("load", main);
